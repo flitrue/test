@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .companydiV {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            /* top: -130px; */
+            /* left: 80px; */
+            transform: skewY(0) rotateZ(88deg) rotateX(8deg) rotateY(-79deg);
+        }
+
+        @keyframes rollImg {
+            0% {
+                transform: rotateZ(5deg);
+            }
+
+            100% {
+                transform: rotateZ(1000deg);
+            }
+        }
+
+        .imgcompany {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            border: 5px solid red;
+            border-left-color: blue;
+            border-right-color: yellow;
+            border-top-color: #04f105;
+            /* transform: rotate(25deg); */
+            animation: 5s rollImg linear infinite normal;
+            transform: skewX(-20deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="companydiV">
+        <div class="imgcompany"></div>
+    </div>
+</body>
+
+</html>
