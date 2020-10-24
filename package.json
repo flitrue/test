@@ -1,0 +1,23 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "promises-aplus-tests promise.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flitrue/test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flitrue/test/issues"
+  },
+  "homepage": "https://github.com/flitrue/test#readme",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
